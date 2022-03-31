@@ -172,3 +172,8 @@ weather[['Sunshine' , 'Rainfall' ,'MaxTemp']].apply(np.max)
 #apply function to filter the rows
 weather[weather['WindDir3pm'].apply(lambda WindDir3pm : WindDir3pm == 'NW')].head()
 
+
+
+#apply function to filter the rows
+weather[weather['WindDir3pm'].apply(lambda WindDir3pm : WindDir3pm == 'NW')].head()
+
